@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    background-color:rgba(0, 0, 0, 0.966);
+
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 20px ;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.central img{
+    background-size: cover;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.central h1{
+    padding-top: 30px;
+    color: white;
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+}
+
+.central h2{
+    color: hsl(75, 94%, 57%);
+    font-size: 15px; 
+}
+
+.central p{
+    padding-top: 30px;
+    color: white;
+    font-size: 14px;
+}
+
+
+.central ul{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.central li{
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    font-weight: 700;
+}
+
+.central li:hover{
+    background-color:hsl(75, 94%, 57%);
+    color: black;
+}
